@@ -1,0 +1,216 @@
+<div class="loader">
+  <img src="img/loader.svg" />
+</div>
+<section class="banner">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="15000">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="max-height">
+          <img src="img/banner/banner1.jpg" style="width:100%;">
+        </div>
+      </div>
+      <div class="item">
+        <div class="max-height">
+          <img src="img/banner/banner2.jpg" style="width:100%;">
+        </div>
+      </div>
+      <div class="item">
+        <div class="max-height">
+          <img src="img/banner/banner3.jpg" style="width:100%;">
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="wrapper bannerfixtxt">
+    <div class="banner-caption">
+      <h1>
+        <%= __('HOMEPAGE.SECTION_1.TITLE') %>
+          <span>
+            <%= __('HOMEPAGE.SECTION_1.TITLE_SPAN') %>
+          </span>
+      </h1>
+      <p>
+        <%= __('HOMEPAGE.SECTION_1.DESCRIPTION') %>
+      </p>
+      <div class="caption-btn">
+        <a href="https://dev.jibla.io/dashboard/register" target="_blank">
+          <%= __('HOMEPAGE.SECTION_1.CREATE_ACCOUNT_BTN') %>
+        </a>
+        <a href="/features">
+          <%= __('LEARN_MORE_BTN') %>
+            <img class="hover-hide" src="img/whitearr.png">
+            <img class="hover-show" src="img/arrow-right.png">
+        </a>
+      </div>
+    </div>
+    <div class="mobbanner-img">
+      <img src="img/mob-banner.png">
+    </div>
+  </div>
+</section>
+<section class="cards-finance">
+  <div class="wrapper">
+    <ul>
+      <li>
+        <div class="cards-inner">
+          <img src="img/data.png">
+          <h1>
+            <%= __('HOMEPAGE.SECTION_2.DATA_TITLE') %>
+          </h1>
+          <p>
+            <%= __('HOMEPAGE.SECTION_2.DATA_DESCRIPTION') %>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="cards-inner">
+          <img src="img/alert.png">
+          <h1>
+            <%= __('HOMEPAGE.SECTION_2.ALERTS_TITLE') %>
+          </h1>
+          <p>
+            <%= __('HOMEPAGE.SECTION_2.ALERTS_DESCRIPTION') %>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="cards-inner">
+          <img src="img/widget.png">
+          <h1>
+            <%= __('HOMEPAGE.SECTION_2.WIDGET_TITLE') %>
+          </h1>
+          <p>
+            <%= __('HOMEPAGE.SECTION_2.WIDGET_DESCRIPTION') %>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="cards-inner">
+          <img src="img/pulse.png">
+          <h1>
+            <%= __('HOMEPAGE.SECTION_2.MARKET_TITLE') %>
+          </h1>
+          <p>
+            <%= __('HOMEPAGE.SECTION_2.MARKET_DESCRIPION') %>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="stock-det">
+  <div class="wrapper">
+    <div class="img-phn">
+      <img src="img/phn-apple.png">
+    </div>
+    <div class="Stocklist">
+      <h3>
+        <%= __('HOMEPAGE.SECTION_3.TITLE') %>
+      </h3>
+      <ul>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_1') %>
+        </li>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_2') %>
+        </li>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_3') %>
+        </li>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_4') %>
+        </li>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_5') %>
+        </li>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_6') %>
+        </li>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_7') %>
+        </li>
+        <li>
+          <%= __('HOMEPAGE.SECTION_3.LI_8') %>
+        </li>
+      </ul>
+      <a href="/features">
+        <%= __('LEARN_MORE_BTN') %>
+          <img class="hover-show" src="img/whitearr.png">
+          <img class="hover-hide" src="img/arrow-right.png">
+      </a>
+    </div>
+  </div>
+</section>
+<section class="app-support">
+  <div class="wrapper">
+    <h1>
+      <%= __('HOMEPAGE.SECTION_4.TITLE') %>
+    </h1>
+    <ul>
+      <li>
+        <a href="https://itunes.apple.com/us/app/kuwait-jibla-finance/id948186516?mt=8" target="_blank">
+          <img src="img/appbtn.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://play.google.com/store/apps/details?id=jiblatech.com.kse2_android" target="_blank">
+          <img src="img/gplay.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://s3.eu-central-1.amazonaws.com/jibla-finance-desktop-mac/Jibla+Finance-0.9.3.dmg">
+          <img src="img/macbtn.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://s3.eu-central-1.amazonaws.com/jibla-finance-desktop-mac/Jibla+Finance+Setup+0.9.3.exe">
+          <img src="img/windowbtn.png">
+        </a>
+      </li>
+    </ul>
+    <div class="app-lang">
+      <%= __('HOMEPAGE.SECTION_4.DESCRIPTION') %>
+    </div>
+  </div>
+</section>
+<section class="renewable-app">
+  <div class="wrapper">
+    <div class="renewable-data">
+      <%= __('HOMEPAGE.SECTION_5.TITLE') %>
+    </div>
+    <div class="Premium-sub">
+      <%= __('HOMEPAGE.SECTION_5.SUBTITLE') %>
+    </div>
+    <!-- <div id="pricesList1" class="prices-outer homepage-prices-list">
+      <div class="pricing-inner"></div>
+    </div> -->
+    <ul id="pricesList" class="prices"></ul>
+    <div class="Subscriptions-trial">
+      <%= __('HOMEPAGE.SECTION_5.DESCRIPTION') %>
+        <a>
+          <%= __('HOMEPAGE.SECTION_5.LINK_TEXT') %>
+        </a>
+    </div>
+    <div class="subbtn">
+      <a>
+        <%= __('SUBSCRIBE_BTN') %>
+      </a>
+    </div>
+  </div>
+</section>
+
+<input id="lang" type="hidden" value="<%= lang%>" />
+<input id="url" type="hidden" value="<%= url%>" />

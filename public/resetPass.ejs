@@ -1,0 +1,54 @@
+<html>
+  <body>
+    <div class="resetpassowrdmain">
+      <div class="resetmainblock">
+        <h1>
+          <%= title %>
+        </h1>
+        <form action="/auth/resetPassword" method="post" id="passwordForm">
+          <div class="fullblock">
+            <input type="password" class="input-lg form-control" name="password" id="password1" placeholder="New Password" autocomplete="off"
+              required>
+            <span id="perror" class="error" style="color:#FF0004;"></span>
+          </div>
+          <div class="fullblock">
+            <input type="password" class="input-lg form-control" name="password2" id="password2" placeholder="Confirm Password" autocomplete="off"
+              required>
+            <span id="cperror" class="error" style="color:#FF0004;"></span>
+          </div>
+          <div class="btnblock">
+            <input id="token" type="hidden" name="token" value="<%= token %>">
+            <input type="button" class="col-xs-12 btn btn-primary btn-load btn-lg" value="Change Password" onclick="changePassword()">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  function changePassword() {
+    let p1 = document.getElementById('password1').value;
+    let p2 = document.getElementById('password2').value;
+    document.getElementById('perror').innerHTML = '';
+    document.getElementById('cperror').innerHTML = '';
+
+    if (p1.trim() === '' && p2.trim() === '') {
+      document.getElementById('perror').innerHTML = 'Password cannot be blank';
+      document.getElementById('cperror').innerHTML = 'Confirm password cannot be blank';
+      return;
+    } else {
+      if (p1.trim() === '') {
+        document.getElementById('perror').innerHTML = 'Password cannot be blank';
+        return;
+      } else if (p2.trim() === '') {
+        document.getElementById('cperror').innerHTML = 'Confirm password cannot be blank';
+        return;
+      } else if (p1 !== p2) {
+        document.getElementById('cperror').innerHTML = 'Password not match';
+        return;
+      } else {
+        document.getElementById('passwordForm').submit()
+      }
+    }
+  }
+</script>

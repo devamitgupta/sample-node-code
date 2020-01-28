@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <% include ./views/partials/head %>
+</head>
+
+<body class="<%=lang%>">
+  <header>
+    <% include ./views/partials/navbar %>
+  </header>
+  <% if (data === 'main') { %>
+    <% include ./views/main %>
+  <% } else if (data === 'pricing'){ %>
+    <% include ./views/pricing %>
+  <% }  else if (data === 'contact'){ %>
+    <% include ./views/contact %>
+  <% } else if (data === 'features'){ %>
+    <% include ./views/features %>
+  <% } %>
+  <footer>
+    <% include ./views/partials/footer %>
+  </footer>
+</body>
+
+</html>
+<script>
+  function changeLanguage(value) {
+    window.location = "/setlocale/" + value;
+  }
+</script>

@@ -1,0 +1,53 @@
+<div class="wrapper">
+
+  <div class="logo-main">
+    <img src="img/logo.png">
+  </div>
+  <div class="hamburger-box show-mob">
+    <div class="hamburger-inner "></div>
+  </div>
+  <nav class="header-nav">
+    <div class="logo-main show-mob">
+      <img src="img/logo.png">
+    </div>
+    <ul class="nav-link">
+      <li>
+        <a href="/">
+          <%= __('HOME') %>
+        </a>
+      </li>
+      <li>
+        <a href="/features">
+          <%= __('FEATURES') %>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.jiblatech.com" target="_blank">
+          <%= __('COMPANY') %>
+        </a>
+      </li>
+      <li>
+        <a href="/pricing">
+          <%= __('PRICING') %>
+        </a>
+      </li>
+      <li>
+        <a href="/contact">
+          <%= __('CONTACT') %>
+        </a>
+      </li>
+      <li>
+        <a class="signin" href="https://dev.jibla.io/dashboard/login" target="_blank">
+          <%= __('NAVBAR.SIGN_IN') %>
+        </a>
+      </li>
+      <li class="langouter">
+        <% if(lang) { %>
+          <a class="lang" onclick="changeLanguage('en')">English</a>
+          <% } else{ %>
+            <a class="lang" onclick="changeLanguage('ar')">عربى</a>
+            <% } %>
+      </li>
+    </ul>
+  </nav>
+</div>

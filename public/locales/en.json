@@ -1,0 +1,169 @@
+{
+	"NAVBAR": {
+		"SIGN_IN": "Sign in",
+		"GO_TO_DASHBOARD": "Dashboard"
+	},
+	"HOMEPAGE": {
+		"SECTION_1": {
+			"TITLE": "Kuwait Stock",
+			"TITLE_SPAN": "Exchange App",
+			"DESCRIPTION": "The most comprehensive app for the Kuwait Stock Exchange. Get live data, alerts, portfolio management, and more in one easy-to-use app.",
+			"CREATE_ACCOUNT_BTN": "Create Account"
+		},
+		"SECTION_2": {
+			"DATA_TITLE": "Live Data and Stock Listing",
+			"DATA_DESCRIPTION": "Live prices directly from KSE. Look Up stocks by symbol, name, or number. Save your favorites stocks in one easy to access list. Industry listing or numbered listing.",
+			"ALERTS_TITLE": "Alerts",
+			"ALERTS_DESCRIPTION": "Setup unlimited push notification based alert. Setup simple alerts based on price, price change, percent, volume.",
+			"WIDGET_TITLE": "Today's Widget",
+			"WIDGET_DESCRIPTION": "Quickly glance at the market withone sweep. Display your favorites stocks in Today's notification pulldown screen.",
+			"MARKET_TITLE": "Market Pulse",
+			"MARKET_DESCRIPION": "Navigate the trade timeline easily by scrolling or using the control available."
+		},
+		"SECTION_3": {
+			"TITLE": "Stock Details",
+			"LI_1": "Price/Volume Graph covering intraday, and daily covering data of up to 10 years.",
+			"LI_2": "Financial Statements with attached pdfs.",
+			"LI_3": "Overview with directors and shareholders information.",
+			"LI_4": "Live Open, previous close, high/low, volume.",
+			"LI_5": "Company news",
+			"LI_6": "Order Book",
+			"LI_7": "Live Trades",
+			"LI_8": "Global markets"
+		},
+		"SECTION_4": {
+			"TITLE": "Get live data, alerts, portfolio management, and more in one easy-to-use app",
+			"DESCRIPTION": "Kuwait Bourse App Supports both Arabic and English."
+		},
+		"SECTION_5": {
+			"TITLE": "The app uses auto-renewable subscriptions to access data.",
+			"SUBTITLE": "Premium Subscription lengths and prices are as follows:",
+			"DESCRIPTION": "All Subscriptions Include a",
+			"LINK_TEXT": "1 MONTH TRIAL"
+		}
+	},
+	"FOOTER": {
+		"COPYRIGHT_TEXT": "2018 Jibla Finance. All rights reserved. Made in Kuwait with Love"
+	},
+	"LEARN_MORE_BTN": "Learn More",
+	"SUBSCRIBE_BTN": "Subscribe",
+	"CONTACT": "Contact",
+	"FEATURES": "Features",
+	"COMPANY": "Company",
+	"PRICING": "Pricing",
+	"EMAIL_PLACEHOLDER": "Enter your email address...",
+	"PRICINGPAGE": {
+		"TITLE": "Steps to buy Jibla Product",
+		"STEP_1": {
+			"TITLE": "Select financial market that you want to subscribe with"
+		},
+		"STEP_2": {
+			"TITLE": "Select bundle and subscription duration",
+			"PACKAGE_1": {
+				"PRODUCT_TITLE": "The bundle includes the below products:",
+				"TITLE": "Premium Package",
+				"PRODUCT_1": "Live (PC)",
+				"PRODUCT_2": "Web (Browser)",
+				"PRODUCT_3": "Smart Phones",
+				"PRODUCT_4": "Tablet PC and iPad"
+			},
+			"PACKAGE_2": "Smart Devices Bundle",
+			"PACKAGE_3": "Web Bundle",
+			"PACKAGE_4": "Trend Plus Delayed Data",
+			"PACKAGE_5": "Trend Plus - Real Time",
+			"1_MONTH": "1 Month",
+			"3_MONTH": "3 Months",
+			"6_MONTH": "6 Months",
+			"1_YEAR": "1 Year",
+			"DURATION_SELECT_TEXT": "Please select duration period"
+		},
+		"STEP_3": {
+			"TITLE": "Select payment method"
+		}
+	},
+	"KUWAIT": "Kuwait",
+	"USA": "USA",
+	"PRICES": "PRICES",
+	"KD": "KD",
+	"MONTH": "MONTH",
+	"MONTHS": "MONTHS",
+	"YEAR": "YEAR",
+	"BANK": "Bank",
+	"CREDITCARD": "Credit Card",
+	"DISTRIBUTOR": "Distributor",
+	"JIBLA_DISTRIBUTORS": "Jibla Distributors",
+	"SAUDI_ARABIA": "Saudi Arabia",
+	"QATAR": "Qatar",
+	"MOBILE": "Mobile",
+	"PHONE": "Phone",
+	"DB_NAME_1": "Rashed AlMutairi",
+	"DB_NAME_2": "Cameoo Computer Services",
+	"DB_NAME_3": "Eng. Ibrahim Filakawi",
+	"DB_NAME_4": "Mubarak Al-Tameemi",
+	"CLOSE": "Close",
+	"CONTACTPAGE": {
+		"TITLE": "Home grown software development house",
+		"DESCRIPTION": "We are passionate about computing and software development. Our love of the art and craft of creating software makes us go beyond just producing software for its utility but to take design, performance, ergonomics and aesthetics as equals in consideration. We want to bring a product that we enjoy making and believe will bring satisfaction beyond the mere financial.",
+		"ADDRESS1": "29th Floor, Al Nassar Tower",
+		"ADDRESS2": "Fahad Al Salem St,",
+		"CITY": "Al Qibla, Kuwait City,"
+	},
+	"SUNDAY": "Sunday",
+	"THURSDAY": "Thursday",
+	"AM": "am",
+	"PM": "pm",
+	"SA": "Saudi Arabia",
+	"FEATURESPAGE": {
+		"DATA_TITLE": "Live Data and Stock Listing",
+		"ALERTS_TITLE": "Alerts",
+		"WIDGET_TITLE": "Today's Widget",
+		"MARKET_TITLE": "Market Pulse",
+		"STOCK_DETAILS_TITLE": "Stock Details",
+		"PORTFOLIO_TRACKER_TITLE": "Portfolio Tracker",
+		"NEWS_TITLE": "News",
+		"DATA_SUBTITLE_1": "Live",
+		"DATA_DESCRIPTION_1": "Live prices directly from KSE",
+		"DATA_SUBTITLE_2": "Favorites",
+		"DATA_DESCRIPTION_2": "Save your favorites stocks in one easy to access list",
+		"DATA_SUBTITLE_3": "Listing",
+		"DATA_DESCRIPTION_3": "Lookup stocks by symbol, name, or number",
+		"ALERTS_SUBTITLE_1": "Push Notification",
+		"ALERTS_DESCRIPTION_1": "Setup unlimited push notification based alert",
+		"ALERTS_SUBTITLE_2": "Customize",
+		"ALERTS_DESCRIPTION_2": "Setup simple alerts based on price, price change/percent, volume",
+		"WIDGET_SUBTITLE_1": "Glance",
+		"WIDGET_DESCRIPTION_1": "Quickly glance at the market with one swipe",
+		"WIDGET_SUBTITLE_2": "Favorites",
+		"WIDGET_DESCRIPTION_2": "Show your favorite stocks in Today’s notification screen",
+		"MARKET_SUBTITLE_1": "Visualize",
+		"MARKET_DESCRIPION_1": "Get Intuitive feel of the trades with market pulse, our sleek trades visualization tool",
+		"MARKET_SUBTITLE_2": "Timeline",
+		"MARKET_DESCRIPION_2": "Trades are presented on a timeline with each trade as a circle proportional to its value",
+		"MARKET_SUBTITLE_3": "Color Coding",
+		"MARKET_DESCRIPION_3": "Each circle is color coded to represent whether the trade was on a higher or lower price than yesterday's closing",
+		"STOCK_DETAILS_SUBTITLE_1": "Graph",
+		"STOCK_DETAILS_DESCRIPTION_1": "Price/Volume Graph covering intraday, and daily covering data of up to 10 years",
+		"STOCK_DETAILS_SUBTITLE_2": "Financials",
+		"STOCK_DETAILS_DESCRIPTION_2": "Financial Statements with attached pdfs",
+		"STOCK_DETAILS_SUBTITLE_3": "Live",
+		"STOCK_DETAILS_DESCRIPTION_3": "Live open, previous close, high/low, volume, order book, trades",
+		"STOCK_DETAILS_SUBTITLE_4": "Profile",
+		"STOCK_DETAILS_DESCRIPTION_4": "Overview with directors and shareholders information",
+		"STOCK_DETAILS_SUBTITLE_5": "News",
+		"STOCK_DETAILS_DESCRIPTION_5": "Company latest news",
+		"PORTFOLIO_TRACKER_SUBTITLE_1": "Portfolios",
+		"PORTFOLIO_TRACKER_DESCRIPTION_1": "Create unlimited portfolios",
+		"PORTFOLIO_TRACKER_SUBTITLE_2": "Summary",
+		"PORTFOLIO_TRACKER_DESCRIPTION_2": "Gain/Loss summary per portfolio",
+		"PORTFOLIO_TRACKER_SUBTITLE_3": "Positions",
+		"PORTFOLIO_TRACKER_DESCRIPTION_3": "Added unlimited positions to existing portfolio",
+		"PORTFOLIO_TRACKER_SUBTITLE_4": "Transactions",
+		"PORTFOLIO_TRACKER_DESCRIPTION_4": "Logging for every transaction made for any portfolio",
+		"NEWS_SUBTITLE_1": "KSE News",
+		"NEWS_DESCRIPTION_1": "Stock news announcements from KSE",
+		"NEWS_SUBTITLE_2": "Local News",
+		"NEWS_DESCRIPTION_2": "Economic news from local newspapers"
+	},
+	"HOME": "Home",
+	"KNET": "Knet"
+}
